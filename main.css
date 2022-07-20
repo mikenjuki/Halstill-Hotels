@@ -1,0 +1,14 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display&display=swap');
+
+/* Main Styling */
+html,body {
+    font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
+    line-height: 1rem;
+}
