@@ -10,5 +10,18 @@
 /* Main Styling */
 html,body {
     font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
-    line-height: 1rem;
+    line-height: 2rem;
+}
+
+a {
+    color: #542400;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
 }
