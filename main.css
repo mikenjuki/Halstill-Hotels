@@ -7,6 +7,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display&display=swap');
 
+/* Utility */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.primary-text {
+    color: #F1B542;
+}
+
+.lead-copy {
+    font-size: 20px;
+}
+
 /* Main Styling */
 html,body {
     font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
@@ -24,4 +40,72 @@ h1, h2, h3 {
 
 p {
     margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+    background: #FFFDF2;
+    color: #542400;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #542400;
+    cursor: pointer;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.main-nav_item {
+    float: right;
+}
+
+.main-nav_item a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar .main-nav_item a:hover,
+#navbar .main-nav_item a:active {
+    background: #542400;
+    color: #F1B542;
+}
+
+/* Showcase */
+#showcase {
+    background: url('./Images/hotel-01.jpg') left 0% bottom 40%/cover;
+    width: 100vw;
+    height: 70vh;
+}
+
+.showcase-content {
+    color: #FFFDF2;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.showcase-content h1 {
+    font: 64px/1.2rem 'Libre Caslon Display', serif;
+}
+
+.showcase-btn {
+    display: inline-block;
+    font: 18px 'Bona Nova', serif;
+    color: #FFFDF2;
+    background: #542400;
+    padding: 14px;
+}
+
+.showcase-btn:hover {
+    background: #F1B542;
+    color: #542400;
 }
