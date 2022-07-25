@@ -47,8 +47,8 @@
 }
 
 .bg-primary {
-    background: #333;
-    color: #B06104;
+    background: #F1B542;
+    color: #f2f2f2;
 }
 
 .bg-dark {
@@ -155,4 +155,16 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 20px;
+}
+
+/* Features List */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 12px;
 }
