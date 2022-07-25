@@ -21,6 +21,12 @@
 
 .lead-copy {
     font-size: 20px;
+    font-family: 'Antic Didone', 'serif';
+}
+
+#current {
+    background: rgb(122, 122, 122);
+    color: #F1B542;
 }
 
 .btn {
@@ -60,9 +66,15 @@
     clear: both;
 }
 
+.l-heading {
+    font-size: 40px; 
+}
+
 /* Main Styling */
 html,body {
-    font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
+    font-family: 'Antic Didone', serif;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Libre Caslon Display', serif;
     line-height: 2rem;
 }
 
@@ -157,6 +169,7 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 20px;
+    font-family: 'Antic Didone', 'serif';
 }
 
 /* Features List */
@@ -171,12 +184,66 @@ p {
     margin-bottom: 12px;
 }
 
+#features p {
+    font-family: 'Antic Didone', 'serif';
+}
+
 /* About-info */
 .about-info .info-right {
     float: right;
     width: 50%;
     min-height: 100%;
+    padding: 20px 0;
 }
+
+.about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding: 20px 0;
+}
+
+.about-info .info-left p {
+    font-family: 'Antic Didone', 'serif';
+    font-size: 18px;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    padding-top: 40px;
+    background: url(./Images/testimonials-background-02.jpg) no-repeat left 0% bottom 60%/cover;
+    background-size: cover;
+}
+
+#testimonials h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #f2f2f2;
+}
+
+#testimonials .testimonial {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#testimonials .testimonial img {
+    display: block;
+    margin-right: 20px;
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+}
+
 
 /* Footer */
 .main-footer {
