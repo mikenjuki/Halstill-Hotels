@@ -115,3 +115,14 @@ p {
     font: 64px/1.2rem 'Libre Caslon Display', serif;
 }
 
+/* Home Info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    width: 50%;
+    float: left;
+    background: url('./Images/showcase-image.jpg') left 0% bottom 30%/cover no-repeat;
+    min-height: 100%;
+}
