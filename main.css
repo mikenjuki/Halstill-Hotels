@@ -23,6 +23,24 @@
     font-size: 20px;
 }
 
+.btn {
+    display: inline-block;
+    font: 18px 'Bona Nova', serif;
+    color: #FFFDF2;
+    background: #542400;
+    padding: 14px;
+}
+
+.btn:hover {
+    background: #F1B542;
+    color: #542400;
+}
+
+.btn-light {
+    background: #DFDDD7;
+    color: #fff;
+}
+
 /* Main Styling */
 html,body {
     font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
@@ -97,15 +115,3 @@ p {
     font: 64px/1.2rem 'Libre Caslon Display', serif;
 }
 
-.showcase-btn {
-    display: inline-block;
-    font: 18px 'Bona Nova', serif;
-    color: #FFFDF2;
-    background: #542400;
-    padding: 14px;
-}
-
-.showcase-btn:hover {
-    background: #F1B542;
-    color: #542400;
-}
