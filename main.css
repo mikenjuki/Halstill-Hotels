@@ -56,7 +56,9 @@
     color: #fff;
 }
 
-
+.clr {
+    clear: both;
+}
 
 /* Main Styling */
 html,body {
@@ -167,4 +169,12 @@ p {
 
 .box i {
     margin-bottom: 12px;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    background: #333;
+    color: #f2f2f2;
+    padding: 20px;
 }
