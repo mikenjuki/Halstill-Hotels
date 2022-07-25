@@ -171,6 +171,13 @@ p {
     margin-bottom: 12px;
 }
 
+/* About-info */
+.about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
 /* Footer */
 .main-footer {
     text-align: center;
