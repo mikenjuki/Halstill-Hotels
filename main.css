@@ -41,6 +41,23 @@
     color: #fff;
 }
 
+.bg-light {
+    background: #f2f2f2;
+    color: #333;
+}
+
+.bg-primary {
+    background: #333;
+    color: #B06104;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+
+
 /* Main Styling */
 html,body {
     font-family: 'Antic Didone', 'Bona Nova', 'Libre Caslon Display', serif;
@@ -125,4 +142,17 @@ p {
     float: left;
     background: url('./Images/showcase-image.jpg') left 0% bottom 30%/cover no-repeat;
     min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 20px;
 }
