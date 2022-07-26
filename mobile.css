@@ -1,14 +1,25 @@
-#navbar .logo {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #navbar .logo {
     float: none;
     text-align: center;
-}
+} 
 
 #navbar ul, #navbar ul li {
     float: none;
+}  */
+
+.main-nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.main-nav_item a {
+.main-nav-item a {
     padding: 5px;
     border-bottom: #828282 solid 1px;
 }
@@ -21,6 +32,11 @@
 #home-info .info-content {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
+}
+
+#home-info .info-content p {
+    padding-bottom: 10px;
 }
 
 /* Boxes */

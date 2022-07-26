@@ -113,18 +113,18 @@ p {
     list-style: none;
 }
 
-.main-nav_item {
+.main-nav-item {
     float: right;
 }
 
-.main-nav_item a {
+.main-nav-item a {
     display: block;
     padding: 20px;
     text-align: center;
 }
 
-#navbar .main-nav_item a:hover,
-#navbar .main-nav_item a:active {
+#navbar .main-nav-item a:hover,
+#navbar .main-nav-item a:active {
     background: #542400;
     color: #F1B542;
 }
