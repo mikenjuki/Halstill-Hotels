@@ -103,7 +103,7 @@ p {
     cursor: pointer;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -148,7 +148,7 @@ p {
 
 /* Home Info */
 #home-info {
-    height: 400px;
+    height: 550px;
 }
 
 #home-info .info-img {
@@ -217,7 +217,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-    height: 600px;
+    height: 100%;
     padding-top: 40px;
     background: url(./Images/testimonials-background-02.jpg) no-repeat left 0% bottom 60%/cover;
     background-size: cover;
