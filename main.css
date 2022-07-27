@@ -213,25 +213,30 @@ p {
 }
 
 /* About-info */
+.about-info-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-left: 160px;
+}
+
 .about-info .info-right {
-    float: right;
     width: 50%;
     min-height: 100%;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .about-info .info-right img {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 60%;
     border-radius: 20px;
 }
 
 .about-info .info-left {
-    float: left;
     width: 50%;
     min-height: 100%;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .about-info .info-left p {
