@@ -98,24 +98,35 @@ p {
     overflow: auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #navbar a {
     color: #542400;
     cursor: pointer;
 }
 
 #navbar .logo {
-    float: left;
+    align-self: flex-start;
     padding-top: 20px;
 }
 
-#navbar ul {
+/* #navbar ul {
     float: right;
+    list-style: none;
+} */
+
+.main-nav-items {
+    display: flex;
     list-style: none;
 }
 
-.main-nav-item {
-    float: right;
-}
+/* .main-nav-item {
+    align-self: flex-end;
+} */
 
 .main-nav-item a {
     display: block;
@@ -173,11 +184,31 @@ p {
 }
 
 /* Features List */
-.box {
+.features-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
+} */
+
+.box {
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    /* margin: 0.5rem;
+    min-width: 13.125rem;
+    max-width: 25rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* max-height: 28rem; */
 }
 
 .box i {
