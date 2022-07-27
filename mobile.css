@@ -60,10 +60,6 @@
     justify-content: center;
 }
 
-.about-info .about-heading {
-    text-align: center;
-}
-
 .about-info .info-left {
     display: flex;
     flex-direction: column;
