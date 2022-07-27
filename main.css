@@ -110,15 +110,10 @@ p {
 }
 
 #navbar .logo {
-    display: inline-block;
+    /* display: inline-block; */
     align-self: flex-start;
     padding-top: 20px;
 }
-
-/* #navbar ul {
-    float: right;
-    list-style: none;
-} */
 
 .main-nav-items {
     display: flex;
@@ -130,7 +125,7 @@ p {
 } */
 
 .main-nav-item a {
-    display: block;
+    display: inline-block;
     padding: 20px;
     text-align: center;
 }
