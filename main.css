@@ -110,8 +110,6 @@ p {
 }
 
 #navbar .logo {
-    /* display: inline-block; */
-    /* align-self: flex-start; */
     padding-top: 20px;
 }
 
@@ -119,10 +117,6 @@ p {
     display: flex;
     list-style: none;
 }
-
-/* .main-nav-item {
-    align-self: flex-end;
-} */
 
 .main-nav-item a {
     display: inline-block;
