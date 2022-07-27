@@ -110,6 +110,7 @@ p {
 }
 
 #navbar .logo {
+    display: inline-block;
     align-self: flex-start;
     padding-top: 20px;
 }

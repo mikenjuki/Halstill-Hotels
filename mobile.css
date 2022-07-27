@@ -53,14 +53,25 @@
 }
 
 /* About */
-.about-info .info-right,
+.about-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-info .about-heading {
+    text-align: center;
+}
+
 .about-info .info-left {
-    float: none;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
 .about-info .info-right {
-    margin-top: 30px;
+    display: none;
 }
 
 .l-heading {
