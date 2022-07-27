@@ -1,15 +1,15 @@
-.container {
+.nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 /* #navbar .logo {
-    float: none;
     text-align: center;
-} 
+}  */
 
-#navbar ul, #navbar ul li {
+/*#navbar ul, #navbar ul li {
     float: none;
 }  */
 
